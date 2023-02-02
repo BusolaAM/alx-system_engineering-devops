@@ -16,4 +16,8 @@
 
 0x06-regular_expressions
 
+0x07. Networking basics #0
+
+0x08-networking_basics_2
+
 command_line_for_the_win
