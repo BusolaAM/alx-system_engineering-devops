@@ -40,5 +40,5 @@ frontend myfrontend
 backend webservers
         balance roundrobin
         server 136959-web-01 100.25.148.137:80 check
-        server 136959-web-02 100.25.135.119:80 check
+        server 136959-web-02 54.210.88.236:80 check
        
