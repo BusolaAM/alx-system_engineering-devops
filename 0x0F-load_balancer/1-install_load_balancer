@@ -40,8 +40,8 @@ frontend pbam-tech-frontend
 
 backend pbam-tech-backend
     balance roundrobin
-    server 136959-web-01 100.25.148.137:80 check
-    server 136959-web-02 54.210.88.236:80 check
+    server 136959-web-01 100.25.143.79:80 check
+    server 136959-web-02 54.174.101.207:80 check
 "
 
 # shellcheck disable=SC2154
