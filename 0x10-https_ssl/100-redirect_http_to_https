@@ -41,7 +41,7 @@ frontend pbam-frontend
         default_backend pbam-backend
 
 frontend pbam-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/pbam.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.pbam.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend pbam-backend
 
