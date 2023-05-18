@@ -3,8 +3,15 @@
 server {
     # Listen on port 80
     listen      80 default_server;
-    listen      [::]:80 default_server ipv6only=on;
-
+location /hbnb_static { alias /data/web_static/current/;}
+        listen [::]:80 default_server;
+        root /var/www/html;
+        index index.html index.htm index.nginx-debian.html
+        server_name_;
+        add_header X-Served-By $hostname;
+        location / {
+                try_files $uri $uri/ =404;
+        }
     # Use server IP as domain name
     server_name 100.25.143.79;
 
